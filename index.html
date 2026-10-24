@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Finance Student</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="Finance and business events, student jobs and career resources for Toronto, Ottawa and Hamilton. By finance students, for finance students.">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js', 'is-intro');
+  </script>
+</head>
+<body>
+
+  <!-- Intro: only "Finance." is visible, then the site opens out of the "a" -->
+  <div class="intro" aria-hidden="true"></div>
+  <div class="intro-ring" aria-hidden="true"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#top" class="brand" aria-label="The Finance Student, home">
+        <img class="brand__logo" src="assets/img/fs-logo.png" alt="" width="54" height="54">
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#cities">Cities</a>
+        <a href="#">Events</a>
+        <a href="#">Hirings</a>
+        <a href="#career">Resources</a>
+        <a href="#about">About</a>
+      </nav>
+      <a href="#" class="header__cta">Pitch an article <span aria-hidden="true">↗</span></a>
+      <button class="header__menu" type="button" aria-label="Open menu">Menu</button>
+    </div>
+    <span class="header__rule"></span>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__stage">
+        <!-- Intraday chart: "Finance." is the price, the period is the last trade -->
+        <div class="chart" aria-hidden="true">
+          <div class="chart__head mono">
+            <span>FS / Intraday</span>
+            <span class="chart__read" data-read></span>
+          </div>
+          <div class="chart__body" data-chart>
+            <svg class="chart__svg"></svg>
+            <span class="xh xh--v"></span>
+            <span class="xh xh--h"></span>
+            <span class="chart__marker"></span>
+            <span class="tag tag--x mono"></span>
+            <span class="tag tag--y mono"></span>
+            <span class="tag tag--last mono">FS</span>
+          </div>
+        </div>
+
+        <h1 class="hero__title" aria-label="The Finance Student">
+          <span class="hero__the" aria-hidden="true">The</span>
+          <span class="hero__word" aria-hidden="true">Fin<span class="hero__a">a<i class="hero__probe"></i></span>nce<em>.</em></span>
+          <span class="hero__student" aria-hidden="true">Student</span>
+        </h1>
+
+        <p class="hero__tag">By finance students,<br>for finance students.</p>
+      </div>
+
+      <!-- Logo marquee: firms students most want to work for -->
+      <div class="marquee" aria-label="Firms students want to work for">
+        <ul class="marquee__track">
+          <li><img src="assets/logos/rbc.svg" alt="RBC" style="--h:46px"></li>
+          <li><img src="assets/logos/td.svg" alt="TD" style="--h:40px"></li>
+          <li><img src="assets/logos/deloitte.svg" alt="Deloitte" style="--h:26px"></li>
+          <li><img src="assets/logos/goldman.svg" alt="Goldman Sachs" style="--h:46px"></li>
+          <li><img src="assets/logos/bmo.svg" alt="BMO" style="--h:34px"></li>
+          <li><img src="assets/logos/pwc.svg" alt="PwC" style="--h:46px"></li>
+          <li><img src="assets/logos/jpmorgan.svg" alt="J.P. Morgan" style="--h:28px"></li>
+          <li><img src="assets/logos/scotiabank.svg" alt="Scotiabank" style="--h:30px"></li>
+          <li><img src="assets/logos/ey.svg" alt="EY" style="--h:44px"></li>
+          <li><img src="assets/logos/morganstanley.svg" alt="Morgan Stanley" style="--h:30px"></li>
+          <li><img src="assets/logos/cibc.svg" alt="CIBC" style="--h:30px"></li>
+          <li><img src="assets/logos/kpmg.svg" alt="KPMG" style="--h:34px"></li>
+          <li><img src="assets/logos/blackrock.svg" alt="BlackRock" style="--h:24px"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ STATEMENT ============ -->
+    <section class="statement" id="about">
+      <div class="wrap">
+        <span class="label mono">(About)</span>
+        <p class="statement__text" data-words>Instead of checking dozens of bank, firm and school websites, find what matters in one place. Networking nights, internships, case competitions and new-grad roles, sorted by city and always free for students.</p>
+        <div class="statement__row">
+          <div class="fact reveal"><span class="mono">For</span><p>Business, commerce, economics and accounting students</p></div>
+          <div class="fact reveal"><span class="mono">Digest</span><p>One email per city, every Tuesday at 10&nbsp;AM</p></div>
+          <div class="fact reveal"><span class="mono">Where</span><p>Toronto, Ottawa and Hamilton, each with its own feed</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CAREER ============ -->
+    <section class="career" id="career">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display reveal-clip">Career</h2>
+          <p class="section-head__note reveal">Early-career programs at major employers. Not city-specific, so they're published once and shown to every city.</p>
+        </div>
+
+        <ol class="roles">
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">01</span>
+            <span class="role__org">TD</span>
+            <span class="role__title">Early Talent Program for Students &amp; New Grads</span>
+            <span class="role__tags mono">Internship · New grad</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">02</span>
+            <span class="role__org">Canada Life</span>
+            <span class="role__title">Internships, co-op placements and graduate opportunities</span>
+            <span class="role__tags mono">Co-op · Internship</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">03</span>
+            <span class="role__org">Manulife</span>
+            <span class="role__title">Student and New Graduate Career Opportunities</span>
+            <span class="role__tags mono">Student · New grad</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">04</span>
+            <span class="role__org">PwC Canada</span>
+            <span class="role__title">Early Careers Program</span>
+            <span class="role__tags mono">Co-op · New grad</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">05</span>
+            <span class="role__org">EY Canada</span>
+            <span class="role__title">Careers Portal for Students and Entry-Level Candidates</span>
+            <span class="role__tags mono">Student · Entry level</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">06</span>
+            <span class="role__org">KPMG Canada</span>
+            <span class="role__title">Student Careers Program</span>
+            <span class="role__tags mono">Co-op · Internship</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">07</span>
+            <span class="role__org">BDO Canada</span>
+            <span class="role__title">Career Opportunities for Students &amp; New Graduates</span>
+            <span class="role__tags mono">Student · New grad</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+          <li class="role reveal"><a href="#">
+            <span class="role__idx mono">08</span>
+            <span class="role__org">Wealthsimple</span>
+            <span class="role__title">Early Talent Program for Finance Students</span>
+            <span class="role__tags mono">Internship</span>
+            <span class="role__go" aria-hidden="true">↗</span>
+          </a></li>
+        </ol>
+
+        <a href="#" class="pill reveal">View all career opportunities <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- ============ CITIES (stacking panels) ============ -->
+    <section class="cities" id="cities">
+      <div class="wrap cities__head">
+        <span class="label mono">(Cities)</span>
+        <h2 class="cities__title reveal-clip">Choose your city.</h2>
+      </div>
+
+      <div class="stack" data-stack>
+        <div class="stack__sticky">
+
+          <article class="panel panel--ottawa" style="--i:0">
+            <div class="panel__info">
+              <span class="panel__coords mono">45.42° N, 75.70° W</span>
+              <h3 class="panel__city">Ottawa</h3>
+              <p>Where it started. Job postings, campus news and networking for students in the capital.</p>
+              <ul class="panel__links mono">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Hirings</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+              <a href="#" class="panel__cta">Enter Ottawa <span aria-hidden="true">→</span></a>
+            </div>
+            <span class="panel__num" aria-hidden="true">1</span>
+            <figure class="panel__media">
+              <img src="assets/img/ottawa.jpg" alt="Centre Block and the Peace Tower on Parliament Hill, Ottawa" width="1600" height="900">
+              <figcaption class="mono">Peace Tower, Parliament Hill</figcaption>
+            </figure>
+          </article>
+
+          <article class="panel panel--toronto" style="--i:1">
+            <div class="panel__info">
+              <span class="panel__coords mono">43.65° N, 79.38° W</span>
+              <h3 class="panel__city">Toronto</h3>
+              <p>The biggest student job market. Postings, events and news for students across the GTA.</p>
+              <ul class="panel__links mono">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Hirings</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+              <a href="#" class="panel__cta">Enter Toronto <span aria-hidden="true">→</span></a>
+            </div>
+            <span class="panel__num" aria-hidden="true">2</span>
+            <figure class="panel__media">
+              <img src="assets/img/toronto.jpg" alt="Toronto skyline and the CN Tower at dusk, seen across the harbour" width="1600" height="900">
+              <figcaption class="mono">CN Tower, from the Toronto Islands</figcaption>
+            </figure>
+          </article>
+
+          <article class="panel panel--hamilton" style="--i:2">
+            <div class="panel__info">
+              <span class="panel__coords mono">43.26° N, 79.87° W</span>
+              <h3 class="panel__city">Hamilton</h3>
+              <p>A growing scene. Student job postings, local events and campus coverage as it builds.</p>
+              <ul class="panel__links mono">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Hirings</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+              <a href="#" class="panel__cta">Enter Hamilton <span aria-hidden="true">→</span></a>
+            </div>
+            <span class="panel__num" aria-hidden="true">3</span>
+            <figure class="panel__media">
+              <img src="assets/img/hamilton.jpg" alt="High Level Bridge and the rail lines below the escarpment in Hamilton" width="1600" height="900">
+              <figcaption class="mono">High Level Bridge, below the escarpment</figcaption>
+            </figure>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <span class="mono">Menu</span>
+          <ul>
+            <li><a href="#cities">Cities</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Hirings</a></li>
+            <li><a href="#career">Resources</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <span class="mono">Site</span>
+          <ul>
+            <li><a href="#">About our listings</a></li>
+            <li><a href="#">Contributor program</a></li>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__alerts">
+          <span class="mono">Email alerts</span>
+          <p>New hirings in your city, every Tuesday at 10&nbsp;AM.</p>
+          <form class="subscribe" novalidate>
+            <label class="sr-only" for="sub-email">Email address</label>
+            <input id="sub-email" type="email" placeholder="you@school.ca" autocomplete="email">
+            <label class="sr-only" for="sub-city">City</label>
+            <div class="subscribe__select">
+              <select id="sub-city">
+                <option>Ottawa</option>
+                <option>Toronto</option>
+                <option>Hamilton</option>
+              </select>
+            </div>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="subscribe__note mono" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="footer__mid">
+        <p>A WangEnterprises publication<br><span class="footer__mail">contact@thefinancestudent.com</span></p>
+        <p class="footer__legal">Listings are gathered from public sources and may change. Always confirm with the organizer. Not affiliated with or endorsed by any organization listed. Logos belong to their owners.</p>
+      </div>
+    </div>
+
+    <div class="mega" aria-hidden="true"><span class="mega__text" data-mega>The Finance Studen<span class="mega__last">t</span></span></div>
+
+    <div class="wrap footer__bottom mono">
+      <span>© 2026 The Finance Student · Ontario, Canada</span>
+      <span>Learn. Connect. Get hired.</span>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
